@@ -1,0 +1,22 @@
+GET http://localhost:3000/workouts
+
+###
+
+
+GET http://localhost:3000/workouts/61ba2476c9a7e698869459fc
+
+###
+
+
+POST http://localhost:3000/workouts
+Content-Type: application/json
+
+{
+    "name": "Workout nickName",
+    "musclesWorked": "string of muscles this workout targets"
+}
+
+
+###
+
+DELETE http://localhost:3000/workouts/61ba2476c9a7e698869459fc
