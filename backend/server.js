@@ -10,6 +10,7 @@ app.use(cors());
 
 // DATABASEURL = 'mongodb://localhost/workouts'
 mongoose.connect(process.env.DATABASEURL, { useNewUrlParser: true, useUnifiedTopology: true });
+// mongoose.connect('mongodb://localhost/workouts', { useNewUrlParser: true, useUnifiedTopology: true });
 
 const db = mongoose.connection
 db.on('error', (error) => console.error(error))
@@ -23,8 +24,8 @@ app.use(function(req, res, next) {
 
 app.use(express.json()); 
 
-// const workoutsRouter = require('./routes/workouts')
-// app.use('/workouts', workoutsRouter)
+const workoutsRouter = require('./routes/workouts')
+app.use('/workouts', workoutsRouter)
 
 app.listen(3001, () => console.log('Server Started'))
 

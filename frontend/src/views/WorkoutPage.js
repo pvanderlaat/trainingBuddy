@@ -35,6 +35,8 @@ class Page extends Component {
         this.updateWorkout = this.updateWorkout.bind(this);
 
         const location = window.location.href
+        //...http://localhost:3000/workoutPage/...34
+        //...http://3.67.67.236:3000/workoutPage/....36
         const workoutID = location.substring(34, location.length+1)
         const requestOptions = {
             method: 'GET',

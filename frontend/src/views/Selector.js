@@ -16,6 +16,8 @@ class Selector extends Component {
     async componentDidMount() {
         // const {ids, workouts} = this.state
         const location = window.location.href
+        //...http://localhost:3000/selectionPage/  36
+        //...http://3.67.67.236:3000/selectionPage/ 38
         const tempids = location.substring(36, location.length+1)
         let counter = 0
         let ids = []
