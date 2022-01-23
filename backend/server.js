@@ -27,7 +27,7 @@ app.use(express.json());
 const workoutsRouter = require('./routes/workouts')
 app.use('/workouts', workoutsRouter)
 
-app.listen(3001, () => console.log('Server Started'))
+app.listen(8080, () => console.log('Server Started'))
 
 app.get('/', (req, res) => {
     res.send("HELLO")
