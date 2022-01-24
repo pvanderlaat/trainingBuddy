@@ -13,7 +13,7 @@ class History extends Component {
     }
   }
   async componentDidMount() {
-            const response = await fetch('http://localhost:3001/workouts')
+            const response = await fetch('http://35.245.200.167:8080/workouts')
             const json = await response.json();
             let counter = 0
             let arr = []

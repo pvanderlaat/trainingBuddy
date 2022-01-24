@@ -252,7 +252,7 @@ class Creator extends Component {
                 "description": description
             })
         };
-        fetch('http://localhost:3001/workouts', requestOptions)
+        fetch('http://35.245.200.167:8080/workouts', requestOptions)
             .then(response => response.json())
             .then(data => {
                 window.location.replace('/workoutPage/' + data['_id'])
@@ -261,7 +261,7 @@ class Creator extends Component {
     
     async componentDidMount() {
         // const { workouts } = this.state;
-        const response = await fetch('http://localhost:3001/workouts')
+        const response = await fetch('http://35.245.200.167:8080/workouts')
         const json = await response.json();
         this.setState({ workouts: json })
     }

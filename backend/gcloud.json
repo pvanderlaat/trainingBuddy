@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "rare-gate-338703",
+  "private_key_id": "b40799888d7ed28559b4f8e9ff1fd5ddb41d42a2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCHmeg8+pGpzulZ\nlC5mteUsgQXqvDGEJ90acfrv+cwmDQ+nbHAluAnf0xoVh6f8RiUaOglaHT8ZbO4p\nGciiHQtaZsEus0qQLE652Pt/5vqvMeMoDccXnIouGjEAUWpEwSZgQhOkS0pmyXTX\nO9nCgpF9KDE0HTpugaLac5cPgA5uVwv/ricbpF+cdEzkC/e2AyM2OVoHlY0DyXzx\nlrHiNuwe0IkEL5K25fcDYUIRAZcOElbpP86c6vQO1v9McMdtT3PgrTvew2xKNRbm\naTMEUe+KmwhKeAeZfWj5KNXFse6OeaSfDckyQDzHGteXNYLGew52M/wqcWhnuG++\nJ0LYHx17AgMBAAECggEAIWL7k0f+ZVjUi4G4iwFuE68QzeLYLjnCbqhxqHRQl23P\n1OEWG7Ncewd2/KYR7kM3D2YKt21MA+6WFPiMNZ4BFZkHJ4Btc2H1YDzUb4FnZ4tY\n6pu50U5xlzhLqFBjYdpMoJakT2daQkSHyBasXv/W4oHq23H22Q6CElczclWNOA1K\n2SkUByNCJj6sASZgg/YRfD1DjX5qHHhqVbxQFeNxfFoaPnIb+5KDTKWhDkVS2D3l\nl8yi5GumpqiBhtvrBVS9WyLyzWPemJ2IDbsrjdTX2U8MPVI0Jaqs03x611IUAod8\nGUZT/WE4HziJ5GQn3sJYFgN5DjS1YmdX3LDsKu5jwQKBgQC+rlf58pIBO9SRPx4z\nxgmCTHaLJqcexDxP94YFN7Wjgq72LtX44+Qm0YbikE6eJurZhyaBQ4tbK0ARWCkh\ns7nzXuswK4hhsm/vVW643D6pbztly5HNJyGU8+biPctLkmj+H+fHCfslSkp1MGoo\naPX57/iEauEb1yhJ4LJitVnkxQKBgQC2DV8bAd1Lkbq7RC1TkzfcRo9oiVMV3Yc6\ntrECrwSoL02CtKmFzrczllwfePuNsXRwOE5wfVCy3wil34Fd3iQeZhWXsFUft7BU\nMNkTlp4JFlBxb1AOqTUT5BxIQQA4zjDo/cb85QvDVPNFIac9YYvTR/wFnpmB4rul\nW1mS6BedPwKBgGVXZZyK5jxPnx7+679afk1I9CvqhCGe6+sYQ5tcS2Y2m2Rt6fzY\nqbZT35tkVNRLHMA1yyoiSttOdkOBloK58Zc+GENGr7o0yrbpsen/7DHC00+7zKa7\nKGbw5gHSE8z7aF+/d0DatibQgBgefh0yA6Etf+hooXFZfakeCdDaT4d9AoGBAIA7\nNuw9CfT6tv7E7PBbWBNuGAFYCQ/ztBblLBVp1evpNb2FJ4s6qcxKcqUwgG+zuQJ6\nhrWxbzAu7VZ48hR+Lg7DdR4ddDgdGLSUm7KyeqqH7y2XbFqHUP2rxUgXkOJySf0z\nFAB6DSkPIzNkmvofRXAS2i/TIOleHTJB//v8QvXdAoGAJ1hDfrtSJijnUUfQn2PB\nkFdeoNXb5+NBXHqKERtgtMplegzxa5MwJD60dDWCL8KO8gibSWzV7nQj20XrdXJU\n7f5115bXEOTcSD2DyX5Z3W5q9xFMEBi7SNkGkppUdd9ucWpeqzP9KBPkzu5OFSCN\nngZP247HRrRfU4q4CN2MJZA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "workoutbuddyservice@rare-gate-338703.iam.gserviceaccount.com",
+  "client_id": "116938028870377538761",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/workoutbuddyservice%40rare-gate-338703.iam.gserviceaccount.com"
+}

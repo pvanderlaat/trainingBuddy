@@ -44,7 +44,7 @@ class Selector extends Component {
                 method: 'GET',
                 headers: { 'Content-Type': 'application/json' },
             };
-            const temp = await fetch('http://localhost:3001/workouts/' + ids[i], requestOptions)
+            const temp = await fetch('http://35.245.200.167:8080/workouts/' + ids[i], requestOptions)
                 .then(response => response.json())
                 .then(data => {
                     // console.log(data)

@@ -250,7 +250,7 @@ class Generator extends Component {
 
                 let tempMuscles = ["chest","legs","calves","shoulders", "lower back","grip", "lats","core",
                 "short-distance cardio", "long-distance cardio","stretching","traps"]
-                const response = await fetch('http://localhost:3001/workouts')
+                const response = await fetch('http://35.245.200.167:8080/workouts')
                 const json = await response.json();
                 
                 for (let i = 0; i < json.length; i++) {

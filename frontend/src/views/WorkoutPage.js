@@ -42,7 +42,7 @@ class Page extends Component {
             method: 'GET',
             headers: { 'Content-Type': 'application/json' },
         };
-        fetch('http://localhost:3001/workouts/' + workoutID, requestOptions)
+        fetch('http://35.245.200.167:8080/workouts/' + workoutID, requestOptions)
             .then(response => response.json())
             .then(data => {
                 this.setState({ 
@@ -66,7 +66,7 @@ class Page extends Component {
                 "lastDone": x
             })
         };
-        fetch('http://localhost:3001/workouts/' + workoutID, requestOptions)
+        fetch('http://35.245.200.167:8080/workouts/' + workoutID, requestOptions)
             .then(response => response.json())
             .then(data => {
                 this.setState({

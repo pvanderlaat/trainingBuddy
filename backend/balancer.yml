@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app.kubernetes.io/name: wb-balancer
+  name: workout-buddy
+spec:
+  replicas: 5
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: wb-balancer
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: wb-balancer
+    spec:
+      containers:
+      - image: gcr.io/rare-gate-338703/repot:tagt
+        name: workout-buddy
+        ports:
+        - containerPort: 8080
